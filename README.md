@@ -60,11 +60,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Aljamaat-Library <a name="about-project"></a>
+In this project, we have created a library app where users can add books to the library, remove books from the library, and change the read status of the books. The app is built using HTML, CSS, and JavaScript. The app is also built using the MVC pattern.
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**Aljamaat-Library** is a library app where users can add books to the library, remove books from the library, and change the read status of the books. The app is built using HTML, CSS, and JavaScript. The app is also built using the MVC pattern.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,14 +74,14 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">RUBY ON RAILS</a></li>
   </ul>
 </details>
 
@@ -97,11 +96,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Aljamaat-Library 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Authentication of the user login and signup**
+- **User must be authenticate**
+- **Login with email and password**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,51 +126,41 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
 Example command:
 
 ```sh
  gem install rails
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
 
-### Install
-
-Install this project with:
-
-<!--
 Example command:
 
 ```sh
   cd my-project
   gem install
 ```
---->
+-
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
 Example command:
 
 ```sh
   rails server
 ```
---->
+-
 
 ### Run tests
 
@@ -189,13 +178,11 @@ Example command:
 
 You can deploy this project using:
 
-<!--
 Example:
 
 ```sh
 
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +192,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤**Author Samiullah**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@samiullah997](https://github.com/samiullah997)
+- Twitter: [@samiullahk997](https://twitter.com/samiullahk997)
+- LinkedIn: [Samiullah Khan](https://www.linkedin.com/in/samiullah-khan-2702b7171/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +206,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **ADDED LIST OF CATEGORY**
+- **IN EACH CATEGORY HAVE POSTS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
