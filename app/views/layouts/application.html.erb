@@ -9,10 +9,14 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <%= javascript_include_tag "application" %>
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+    <main class="container w-full mx-auto mt-0 px-5 flex-col">
+      <%= render "shared/navbar" %>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
       <%= yield %>
     </main>
   </body>
