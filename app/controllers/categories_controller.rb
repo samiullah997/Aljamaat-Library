@@ -7,9 +7,9 @@ class CategoriesController < ApplicationController
     @categories = Category.all
   end
 
-  def show;end
+  def show; end
 
-  def edit;end
+  def edit; end
 
   def new
     @category = Category.new
@@ -26,7 +26,7 @@ class CategoriesController < ApplicationController
   def create
     @category = Category.new(user_id: @user, **category_params)
     @category.user_id = current_user.id
-    
+
     if @category.save
       redirect_to user_categories_path, notice: 'Category was successfully created.'
     else
