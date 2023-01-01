@@ -1,0 +1,7 @@
+<%= form_with model: @category, class: "bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4", url: "#{action_name == 'edit'? user_category_path : user_categories_path(current_user.id)}" , data: { turbo_method: :post }, data: { turbo_scope: :post } do |f| %>
+    <div class="mb-6 m-4">
+      <label for="Category Title" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Category Title</label>
+      <%= f.text_field :title,  class: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" %>
+    </div>
+     <%= f.submit "#{action_name == 'edit' ? "Update Category": "Add New Category" }", class: "m-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" %>
+<% end %>
